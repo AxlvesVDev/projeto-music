@@ -85,6 +85,14 @@ font-size: var(--fs-2xl);
     color: inherit;
  }
 
+  a:hover { 
+    background: linear-gradient(90deg, var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%
+    );
+      -webkit-background-clip: text ;
+      background-clip: text;
+      color: transparent;
+  }
+
 /* tirando bolinha da lista, e no html lembrar de colocar o role="list" na frente da ul  */
     ul[role="list"] { 
     list-style: none; 
