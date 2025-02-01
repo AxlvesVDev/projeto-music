@@ -30,6 +30,18 @@
    } 
 
 
+   .flex { 
+     display: flex;
+   }
+
+   .gap-1 { 
+     gap: 1rem;
+   }
+
+   .grid { 
+    display: grid;
+   }
+
 
 .container {
     --max-width: 375px; /* variavel que funciona para fator maximo da tela, mobile */
