@@ -34,9 +34,18 @@
      display: flex;
    }
 
+   .itens-center { 
+    align-items: center;
+   }
+
    .gap-1 { 
      gap: 1rem;
    }
+
+   .gap-1-5 { /* coloquei essa barra invertida apenas para o html reconhecer como "texto" pois nao tem como criar classe com . por exeplo "class="gap-1.5rem" nao tem como  */
+    gap: 1.5rem;
+   }
+
 
    .grid { 
     display: grid;
@@ -47,7 +56,7 @@
     --max-width: 375px; /* variavel que funciona para fator maximo da tela, mobile */
     width: min(var(--max-width), 100% - var(--px-lg) * 2); 
     margin-inline: auto;
-    border: solid violet;
+    /*border: solid violet; */
     }
 
 @media (width >= 80em) { 
