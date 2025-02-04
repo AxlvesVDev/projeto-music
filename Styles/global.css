@@ -98,6 +98,12 @@ font-size: var(--fs-2xl);
     list-style: none; 
    } 
 
+   img { 
+      width: 100%;
+      display: inline-block;
+
+   }
+
    
 
  /* trabalhando responsividade, NA TELA MAIOR AQUI   */
