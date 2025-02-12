@@ -99,9 +99,8 @@ font-size: var(--fs-2xl);
    } 
 
    img { 
-      width: 100%;
+      max-width: 100%;
       display: inline-block;
-
    }
 
    
@@ -121,3 +120,6 @@ font-size: var(--fs-2xl);
         --px-lg: 2rem; /* no figma é ver o padding do desktop, px pois é eixo x (eixo vertical)  */ 
     }
  }
+
+
+
