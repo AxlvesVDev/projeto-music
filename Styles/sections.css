@@ -29,8 +29,28 @@ section {
 }
 
 
-@media (width >= 80em) { 
-    #smartphone-img { 
-        display: none;
+@media (max-width: 768px) { 
+    .cards {
+        grid-auto-flow: row; /* Faz os cards ficarem empilhados */
+        gap: 1rem; /* Ajusta o espaçamento entre os cards */
     }
+
+    .card {
+        width: 100%; /* Faz os cards ocuparem toda a largura disponível */
+        padding: 1rem; /* Adiciona mais respiro dentro dos cards */
+    }
+
+    /* Ajusta os tamanhos de fonte no mobile */
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .card p, zin-pricing {
+        font-size: 1.2rem;
+    }
+
+    zin-pricing {
+        padding-block: 1rem;
+    }
+
 }
