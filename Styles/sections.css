@@ -1,8 +1,13 @@
 #smartphone-img { 
-   margin-top: 5rem;
-   background: url(../Assets/ilustration.svg) top/cover;
+   display: none;
 }
 
+@media (max-width: 48em) { /* Apenas no mobile */
+    #smartphone-img {
+        display: block; /* Mostra a imagem no mobile */
+        margin-top: 5rem;
+    }
+}
 
 section { 
     & header { 

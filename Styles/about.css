@@ -1,7 +1,26 @@
 #about { 
     background-color: var(--surface-color);
-
+    
     & .even-columns { 
         gap: 2rem;
+      /*  text-align: center;  Centraliza o texto no mobile */
+
+    }
+
+
+
+}
+
+
+@media (max-width: 48em) { /* Apenas no mobile */
+    #about .even-columns {
+        display: flex; /* Usa flexbox para alinhar os itens verticalmente */
+        flex-direction: column; /* Empilha os elementos */
+        gap: 2rem;
+    }
+
+    #about div:first-child {
+        max-width: 40rem; /* Limita a largura do texto */
+        margin-inline: auto; /* Centraliza */
     }
 }
